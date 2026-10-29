@@ -8,7 +8,7 @@
 
 Building practical AI applications with language models, retrieval systems, agent workflows, and cloud-native APIs.
 
-[LinkedIn](https://www.linkedin.com/) · [GitHub](https://github.com/Deepak-0-1) · [Explore my repositories](https://github.com/Deepak-0-1?tab=repositories)
+[LinkedIn](www.linkedin.com/in/deepaksingh917566519721) · [GitHub](https://github.com/Deepak-0-1) · [Explore my repositories](https://github.com/Deepak-0-1?tab=repositories)
 
 </div>
 
