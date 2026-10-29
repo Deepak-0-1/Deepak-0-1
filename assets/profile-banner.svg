@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Deepak Singh | AI × Data × Impact</title>
+  <desc id="desc">A dark navy technology banner with cyan and violet accents and abstract mountain and data-flow shapes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset=".55" stop-color="#0b1e3c"/><stop offset="1" stop-color="#211344"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#2563eb" stop-opacity=".45"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <circle cx="950" cy="95" r="260" fill="url(#halo)"/>
+  <g fill="none" stroke="#6da8ff" stroke-opacity=".18">
+    <path d="M650 300 L790 125 L865 205 L970 75 L1200 270"/>
+    <path d="M600 300 L760 180 L845 240 L1000 135 L1200 285"/>
+    <path d="M680 300 L850 215 L930 250 L1080 175 L1200 260"/>
+    <path d="M760 35 H1160 M800 55 H1120 M850 75 H1080" stroke-dasharray="3 9"/>
+  </g>
+  <g fill="#38bdf8" opacity=".8"><circle cx="865" cy="205" r="3"/><circle cx="970" cy="75" r="4"/><circle cx="1080" cy="175" r="3"/><circle cx="790" cy="125" r="3"/></g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="64" y="58" fill="#7dd3fc" font-size="15" letter-spacing="5" font-weight="700">AI  ×  DATA  ×  IMPACT</text>
+    <text x="60" y="132" fill="#f8fafc" font-size="54" font-weight="800">DEEPAK <tspan fill="url(#glow)">SINGH</tspan></text>
+    <text x="64" y="174" fill="#dbeafe" font-size="23" font-weight="500">AI Engineer · Generative AI · Cloud &amp; Data Engineering</text>
+    <g fill="#cbd5e1" font-size="16">
+      <text x="65" y="226">Build</text><text x="119" y="226" fill="#38bdf8">→</text>
+      <text x="143" y="226">Learn</text><text x="198" y="226" fill="#a78bfa">→</text>
+      <text x="222" y="226">Share</text><text x="281" y="226" fill="#38bdf8">→</text>
+      <text x="305" y="226">Grow</text>
+    </g>
+    <rect x="64" y="248" width="420" height="3" rx="2" fill="url(#glow)"/>
+    <text x="1115" y="246" fill="#c4b5fd" font-size="13" text-anchor="end" letter-spacing="2">PRACTICAL AI SYSTEMS</text>
+  </g>
+</svg>
