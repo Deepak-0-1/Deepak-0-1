@@ -8,7 +8,7 @@
 
 Building practical AI applications with language models, retrieval systems, agent workflows, and cloud-native APIs.
 
-[LinkedIn](www.linkedin.com/in/deepaksingh917566519721) · [GitHub](https://github.com/Deepak-0-1) · [Explore my repositories](https://github.com/Deepak-0-1?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/deepaksingh917566519721) · [GitHub](https://github.com/Deepak-0-1) · [Explore repositories](https://github.com/Deepak-0-1?tab=repositories)
 
 </div>
 
@@ -16,99 +16,99 @@ Building practical AI applications with language models, retrieval systems, agen
 
 ## About
 
-I build AI applications that connect language models with real-world data and workflows. My interests include reliable RAG systems, agentic workflows, model serving, data platforms, and evaluation.
+I build AI applications that connect language models with real-world data and workflows. My focus is on reliable retrieval, tool-using agents, API design, evaluation, and deployable software.
 
 - **Generative AI:** RAG, hybrid retrieval, LangChain, LangGraph, open-source LLMs
 - **AI engineering:** Python, FastAPI, REST APIs, evaluation, observability
-- **Cloud & data:** AWS, Azure, SQL, PySpark, Databricks
-- **Delivery:** Docker, CI/CD, testing, monitoring, reproducible deployments
+- **Cloud and data:** AWS, Azure, SQL, PySpark, Databricks
+- **Engineering practices:** Docker, CI/CD, testing, monitoring, reproducible setup
 
 ## Tech Stack
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>AI / ML / GenAI</strong><br/><br/>
-      <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" alt="Python, PyTorch, TensorFlow"/><br/>
-      LangChain · LangGraph · RAG · Hugging Face
-    </td>
-    <td width="33%" valign="top">
-      <strong>Backend & Data</strong><br/><br/>
-      <img src="https://skillicons.dev/icons?i=fastapi,postgres,mysql" alt="FastAPI, PostgreSQL, MySQL"/><br/>
-      SQL · Pandas · PySpark · Vector Search
-    </td>
-    <td width="33%" valign="top">
-      <strong>Cloud & MLOps</strong><br/><br/>
-      <img src="https://skillicons.dev/icons?i=aws,azure,docker,githubactions" alt="AWS, Azure, Docker, GitHub Actions"/><br/>
-      MLflow · Databricks · CI/CD
-    </td>
-  </tr>
-</table>
+| Area | Tools and technologies |
+|---|---|
+| Languages | Python, SQL, TypeScript, JavaScript |
+| AI / ML | PyTorch, TensorFlow, scikit-learn, Hugging Face |
+| GenAI | RAG, LangChain, LangGraph, Ollama, prompt evaluation |
+| Retrieval and data | Qdrant, ChromaDB, FAISS, PostgreSQL, Pandas, PySpark |
+| APIs and UI | FastAPI, Flask, React, Streamlit |
+| Cloud and delivery | AWS, Azure, Docker, GitHub Actions, MLflow |
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,postgres,aws,azure,docker,githubactions,react,typescript" alt="Python, PyTorch, TensorFlow, FastAPI, PostgreSQL, AWS, Azure, Docker, GitHub Actions, React and TypeScript" />
+</p>
 
 ## Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Deepak-0-1/ResolveAI">ResolveAI</a></h3>
-      <p>AI customer-support workflow with grounded RAG answers, citations, ticket tools, human escalation, and Jira issue investigation.</p>
-      <sub>FastAPI · LangGraph · Qdrant · PostgreSQL · Ollama</sub><br/><br/>
-      <a href="https://github.com/Deepak-0-1/ResolveAI">View project →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Deepak-0-1/DucumentChat-Using-OpenSource-Model">Document Chat</a></h3>
-      <p>Ask questions about PDFs, images, and documents using open-source language models and retrieval-based context.</p>
-      <sub>Python · RAG · Ollama · Vector Search</sub><br/><br/>
-      <a href="https://github.com/Deepak-0-1/DucumentChat-Using-OpenSource-Model">View project →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Deepak-0-1/ResBuild">ResBuild</a></h3>
-      <p>Browser-based ATS resume formatter with structure review and DOCX/PDF export, designed to preserve the user's original wording.</p>
-      <sub>React · TypeScript · PWA · Document Processing</sub><br/><br/>
-      <a href="https://github.com/Deepak-0-1/ResBuild">View project →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Deepak-0-1/Divya-Gyan">Divya-Gyan</a></h3>
-      <p>An AI-assisted spiritual knowledge application exploring LLM-powered experiences.</p>
-      <sub>AI Applications · Python · RAG</sub><br/><br/>
-      <a href="https://github.com/Deepak-0-1/Divya-Gyan">View project →</a>
-    </td>
-  </tr>
-</table>
+### 1. [ResolveAI — AI Support and Jira Investigation](https://github.com/Deepak-0-1/ResolveAI)
 
-[**Browse all repositories →**](https://github.com/Deepak-0-1?tab=repositories)
+AI customer-support workflow designed around grounded answers, ticket tools, escalation, and human review.
 
-## How I Approach Engineering
+- Hybrid retrieval using dense vectors and BM25 with reciprocal-rank fusion.
+- LangGraph workflow routes requests to retrieval, ticket tools, or escalation.
+- FastAPI endpoints, JWT-based role access, PostgreSQL audit records, and Qdrant.
+- Jira investigation flow drafts evidence-based findings and requires staff approval before publishing comments.
+- Includes architecture, API, deployment documentation, and a Docker-based local demo.
 
-- Ground model answers in retrieved evidence and show sources where possible.
-- Evaluate retrieval and answer quality instead of relying on impressions.
-- Build clear API boundaries, structured errors, and observable workflows.
-- Keep human approval in workflows where automated actions need review.
-- Document setup steps, limitations, and reproducible tests.
+**Stack:** FastAPI · LangGraph · Qdrant · PostgreSQL · Ollama · Docker · Jira REST API
+
+<img src="https://github.com/user-attachments/assets/78b5d1df-ab5d-44de-9892-e77496ec6f72" alt="ResolveAI project visual" width="100%" />
+
+### 2. [DocuMind — Document Chat with RAG](https://github.com/Deepak-0-1/DucumentChat-Using-OpenSource-Model)
+
+Private-by-default document question answering with local language models.
+
+- Upload PDFs and query their content using retrieved context.
+- Local inference through Ollama to support privacy-conscious workflows.
+- Background indexing, semantic search with ChromaDB, and a FastAPI backend.
+- Docker support for running the application locally.
+
+**Stack:** FastAPI · LangChain · ChromaDB · Ollama · PyMuPDF · Docker
+
+### 3. [ResBuild — ATS Resume Formatter](https://github.com/Deepak-0-1/ResBuild)
+
+Browser-based resume formatter that focuses on preserving the user's original wording.
+
+- Parses and organizes resume content into editable sections.
+- Provides section reordering, layout choices, and DOCX/PDF export.
+- Includes a verbatim check and ATS-oriented warnings without silently rewriting content.
+- Static PWA architecture; resume processing happens in the browser.
+
+**Stack:** React · TypeScript · PWA · Document Processing · Automated Tests
+
+### 4. [Resume Optimizer](https://github.com/Deepak-0-1/ResumeOptimizer)
+
+Resume tailoring workflow for a target job description.
+
+- Accepts resume files or pasted content alongside a job description.
+- Generates tailored resume content and keyword analysis.
+- Supports DOCX output and streaming analysis.
+- Uses a configurable LLM API integration.
+
+**Stack:** Python · Flask · OpenAI-compatible API · python-docx · PDF parsing
+
+## Engineering Principles
+
+- Ground generated answers in retrieved evidence and show citations where possible.
+- Evaluate retrieval and answer quality instead of relying only on subjective review.
+- Keep API boundaries clear, errors structured, and workflows observable.
+- Require human approval for consequential external actions.
+- Document setup, assumptions, limitations, and reproducible tests.
 
 ## Currently Exploring
 
-- RAG evaluation and retrieval quality
-- Agentic workflows and tool-use reliability
+- Retrieval and RAG evaluation
+- Reliable agent tool use and workflow orchestration
 - Cloud deployment and LLM observability
 - Data engineering patterns for AI applications
 
-## GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Deepak-0-1&show_icons=true&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=E5EDF7&icon_color=A78BFA" height="160" alt="GitHub statistics"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deepak-0-1&layout=compact&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=E5EDF7" height="160" alt="Most used languages"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Deepak-0-1&hide_border=true&background=0B1220&ring=38BDF8&fire=A78BFA&currStreakLabel=E5EDF7&sideLabels=E5EDF7&dates=94A3B8" alt="GitHub contribution streak"/>
-</div>
-
 ## Connect
 
-Interested in AI engineering, GenAI applications, ML systems, and data platforms.
+I'm interested in AI engineering, GenAI applications, ML systems, and data platforms.
 
-- GitHub: [@Deepak-0-1](https://github.com/Deepak-0-1)
-- LinkedIn: Replace this link with your exact LinkedIn profile URL.
+- **LinkedIn:** [linkedin.com/in/deepaksingh917566519721](https://www.linkedin.com/in/deepaksingh917566519721)
+- **GitHub:** [@Deepak-0-1](https://github.com/Deepak-0-1)
+
+---
+
+<sub>Project details and implementation status are documented in the linked repositories. Explore each README for setup instructions and technical notes.</sub>
